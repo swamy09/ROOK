@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Reload */
+@-webkit-keyframes fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+.page {
+ animation-name: fade;
+ animation-duration: 3s; 
+ animation-fill-mode: forwards; 
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.containers{
+  height: 100%;
+  background-image: url(./img/pexels-pixabay-373076.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.containers h1{
+  text-align: center;
+  padding-top: 400px;
+  color:black
+}
+.containers btn{
+  padding-left: 400px;;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;;
+}
+h4{
+  font-family: 'Ubuntu', sans-serif;;
+}
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+#about{
+       padding: 7%;
+}
+#press{
+       padding: 1% ;
+       background-color: black;
+}
+.press-logo{
+       width: 15%;
+       margin: 20px 30px 50px;
+}
+.card{
+    outline: none;
+    border: none;
+    padding: 5%;
+    -webkit-box-shadow: 10px -7px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px -7px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px -7px 16px 0px rgba(0,0,0,0.75);
+}
+.card p{
+     color: black;
+     text-align: left;
+     padding: 15px;
+}
+.circle{
+     height: 70px;
+     width: 70px;
+     background-color: lightgrey;
+     color: black;
+     padding: 12px;
+     font-size: 30px;
+     border-radius: 70%;
+     display: inline-block;
+     margin-bottom: 20px;
+}
+.card:hover .circle{
+     background-color: #ff1d42;
+     transition: 0.5s;
+}
+#footer{
+     text-align: center;
+     background-color: black;
+     padding: 30px 10px;
+} 
+.social-icon {
+    margin: 10px 10px;
+    color: #ff1d42
+}
+.social-icon:hover{
+  color: red;
+}
+.services-bg{
+  background-color: black;
+  padding: 15% 7%;
+  color:white;
+  text-align: center;
+}
+.services-bg h1{
+  padding-top: 50px;
+}
